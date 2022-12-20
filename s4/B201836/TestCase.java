@@ -46,7 +46,7 @@ public class TestCase {
 	    assert freq == 4: "Hi Ho Hi Ho, H: " + freq;
 	    // Write your testCase here
 	    System.out.println("checking my Frequencer");
-	    myObject.showVariables():
+	    myObject.showVariables();
 
 	}
 	catch(Exception e) {
