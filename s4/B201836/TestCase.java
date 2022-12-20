@@ -36,7 +36,7 @@ public class TestCase {
 	try {
 	    FrequencerInterface  myObject;
 	    int freq;
-	    System.out.println("checking Frequencer");
+	    System.out.println("checking smoke Frequencer");
 
 	    // This is smoke test
 	    myObject = new Frequencer();
@@ -45,7 +45,7 @@ public class TestCase {
 	    freq = myObject.frequency();
 	    assert freq == 4: "Hi Ho Hi Ho, H: " + freq;
 	    // Write your testCase here
-
+	    System.out.println("checking my Frequencer");
 
 	}
 	catch(Exception e) {
