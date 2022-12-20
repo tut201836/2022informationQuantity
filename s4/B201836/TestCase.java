@@ -49,7 +49,7 @@ public class TestCase {
 	    myObject.setSpace("Hi Ho Hi Ho oH".getBytes());
 	    myObject.setTarget("H".getBytes());
 	    freq = myObject.frequency();
-	    assert freq == 5: "Hi Ho Hi Ho, H: " + freq;
+	    assert freq == 5: "Hi Ho Hi Ho, HH: " + freq;
 
 	}
 	catch(Exception e) {
