@@ -46,7 +46,8 @@ public class Frequencer implements FrequencerInterface {
 	//UPDATE
 	if(targetLength > spaceLength){
 		System.out.println("Target is longer than Space !!");
-	}else{
+		return -1;
+	}
         	int count = 0;
 		if(debugMode) { showVariables(); }
         	for(int start = 0; start<spaceLength; start++) { // Is it OK?
@@ -56,7 +57,7 @@ public class Frequencer implements FrequencerInterface {
             		}
             		if(abort == false) { count++; }
         	}
-	}
+	
 	if(debugMode) { System.out.printf("%10d\n", count); }
         return count;
     }
