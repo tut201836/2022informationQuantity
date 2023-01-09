@@ -48,10 +48,10 @@ public class TestCase {
 		
 	    // Write your testCase here
 	    System.out.println("checking my Frequencer");
-	    myObject.setSpace("niinom___ik_aito".getBytes());
-	    myObject.setTarget("ii".getBytes());
+	    myObject.setSpace("abc".getBytes());
+	    myObject.setTarget("abcd".getBytes());
 	    freq = myObject.frequency();
-	    assert freq == 1: "Hi Ho Hi Ho, H: " + freq;
+	    assert freq == 0: "Hi Ho Hi Ho, H: " + freq;
 
 	}
 	catch(Exception e) {
